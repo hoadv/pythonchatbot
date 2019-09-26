@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "alo"],
          "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
          "context_set": ""
         },
@@ -12,17 +12,61 @@
          "patterns": ["Thanks", "Thank you", "That's helpful"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
-        {"tag": "hours",
-         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
-         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+		{"tag": "elegant",
+         "patterns": ["", "***", "**"],
+         "responses": ["Totaly agree with CAP, Kukumalu and others","I have the same answer with others", "I think that is a good thing to have", "Let me see", "Hmm, actually I love the way you ask me :)"]
         },
-        {"tag": "payments",
-         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
-         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        {"tag": "monetate",
+         "patterns": ["monetate means", "monetate fun", "monetate member" ],
+         "responses": ["all beautiful people here!","3"]
         },
-        {"tag": "opentoday",
-         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+		{"tag": "carelogistics",
+         "patterns": ["care logistics means", "carelogistics fun", "carelogistics member" ],
+         "responses": ["all members are freshers","6"]
+        },
+		{"tag": "medidata",
+         "patterns": ["medidata means", "medidata fun", "medidata member" ],
+         "responses": ["drinking, singing & exploring new technology","2"]
+        },		
+        {"tag": "agreement express",
+         "patterns": ["agreementexpress", "agreement express"],
+         "responses": ["the shortest deal ever! Closed won within 10 days!"]
+        },
+		{"tag": "KBB",
+         "patterns": ["KBB members", "KBB activities", "KBB fun fact"],
+         "responses": ["Nude Job (Nghiep Tran) is the face of every birth - month party ... except his", "master of Cars, but have no any car", "45"]
+        },
+        {"tag": "DDC",
+         "patterns": ["What are DDC favourite activities?", "DDC activities", "activities of DDC team", "What is the favourite of DDC team?"],
+         "responses": ["Eat all the time", "Sweet people eat sweet things"]
+        },
+		 {"tag": "DDC",
+         "patterns": ["What are fun facts of DDC", "DDC fun facts", "What does DR mean?", "What does DDC mean?"],
+         "responses": ["DDC means Du Dep Chua", "DR means Dep Roi", "You can call us dear (sweet people) - Dear is short for Dealer!", "The Standard of Beauty"]
+        },
+        {"tag": "ATC",
+         "patterns": ["ATC members", "Autotrader", "ATC"],
+         "responses": ["A member of Tuyet Tinh Cox(Cox Automotive Client)", "AutoTrader is under the guardian of a friendly Autobot (Bumblebee)", "7"]
+        },
+        {"tag": "A+",
+         "patterns": ["How many account in A+?", "A+ accounts?", "Account in A+", "A+ BU Head", "A+ birthday"],
+         "responses": ["I remember that 11 are the number I have knew!", "KBB, DDC, ATC, HS, HMS, Monetate, BabyShark, CareLogistics, KiBo, Medidata, Agreement Express", "Mai Le","Sep-26"]
+        },
+        {"tag": "KIBO",
+         "patterns": ["KIBO activity", "Kibo fun facts", "kibo member?" ],
+         "responses": ["Kibo needs food, loves food... So plz give us food", "You want to hear a story, just come to Qui (Huy Dang), an amazing-humorous-forever looped-story teller", "20"]
+        },
+        {"tag": "HS",
+         "patterns": ["HS activities", "HotSchedules activities", "HS fun fact", "Hot Schedules"],
+         "responses": ["The biggest project in KMS (140 members at peak time)", "We have internal CEO team which means Chief Entertainment Officers"]
+        },
+		{"tag": "HMS",
+         "patterns": ["HMS", "CloudHMS", "HMS members", "Viet Nam account" ],
+         "responses": ["Do you want to practice Vietnamese? Come join us!", "Do you want to work onsite regularly? Come join us!"]
+        },
+		{"tag": "BBS",
+         "patterns": ["BBS", "BabyShark", "Baby Shark members" ],
+         "responses": ["learn, learn more, learn forever :v"]
         }
    ]
 }
